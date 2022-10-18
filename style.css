@@ -125,7 +125,83 @@ h2 {
     color: #c4fd26;
     font-weight: 500;
 }
+.lowcontrast-section {
+    background-color: #9E4949;
+    padding: 40px;
+}
 
+.lowcontrast-header {
+    font-family: 'Playfair Display';
+    font-size: 26px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #7086EF;
+    text-align: center;
+}
+
+.lowcontrast-text {
+    font-family: 'Playfair Display', serif;
+    font-size: 15px;
+    margin-bottom: 20px;
+    color: #7086EF;
+    text-align: center;
+}
+
+.bluestate {
+    padding: 40px;
+    background-color: #0500FF;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 31px;
+}
+
+mark {
+    background-color: #c4fd26;
+    color: #2d2d2d;
+}
+
+::selection {
+    color: #2d2d2d;
+    background: #c4fd26;
+  }
+
+.invisible-container {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 31px;
+}
+
+.invisible {
+    color: white;
+    display: inline-block;
+}
+
+.normalcallout2 {
+    font-family: 'Zilla Slab';
+    font-size: 30px;
+    line-height: 40px;
+    color: #0500FF;
+    font-weight: 600;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.section4 {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 31px;
+}
 
 
 
@@ -214,48 +290,102 @@ h2 {
         font-weight: 600;
     }
 
-    .section3 {
-        margin-top: 20px;
+    .lowcontrast-section {
+        background-color: #9E4949;
         padding-left: 23%;
         padding-right: 23%;
-        padding-top: 5%;
-        padding-bottom: 5%;
     }
-
-    .section3-title {
-        font-family: 'Zilla Slab', serif ;
+    
+    .lowcontrast-header {
+        font-family: 'Playfair Display';
+        font-size: 26px;
+        margin-bottom: 20px;
         font-weight: bold;
-        font-size: 56px;
-        line-height: 76px;
+        color: #7086EF;
+        text-align: center;
+    }
+    
+    .lowcontrast-text {
+        font-family: 'Playfair Display', serif;
+        font-size: 15px;
+        margin-bottom: 20px;
+        color: #7086EF;
+        text-align: center;
+    }
+
+    .bluestate {
+        padding-left: 23%;
+        padding-right: 23%;
+        padding-top: 60px;
+        padding-bottom: 60px;
+        background-color: #0500FF;
         color: white;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 20px;
+        line-height: 32px;
     }
-
-    .section3-body {
-        font-family: 'Open Sans', sans-serif ;
-        color: white;
-        font-size: 30px;
-        line-height: 51px;
-    }
-
-    .callout {
-        display: flex;
-        margin-top: 50px;
-        gap: 50px;
-    }
-
-    .stem {
-        height: 200fr;
-        width: 30px;
+    
+    mark {
         background-color: #c4fd26;
+        color: #2d2d2d;
     }
 
-    .dark {
-        font-family: 'Zilla Slab';
-        font-size: 90px;
-        line-height: 100px;
-        color: #c4fd26;
-        font-weight: 500;
-        align-items: center;
+    .invisible-container {
+        padding-left: 23%;
+        padding-right: 23%;
+        padding-top: 60px;
+        padding-bottom: 20px;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 20px;
+        line-height: 32px;
     }
+    
+    .invisible {
+        color: white;
+        display: inline-block;
+    }
+
+
+    .normalcallout2 {
+        font-family: 'Zilla Slab';
+        font-size: 50px;
+        line-height: 65px;
+        color: #0500FF;
+        font-weight: 600;
+        padding-left: 23%;
+        padding-right: 23%;
+    }
+    
+    .section4 {
+        padding-left: 23%;
+        padding-right: 23%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 20px;
+        line-height: 32px;
+    }
+
+    h3 {
+        font-family: 'Zilla Slab';
+        font-size: 36px;
+        line-height: 43px;
+        margin-top: 40px;
+        margin-bottom: 20px;
+        padding-left: 23%;
+        padding-right: 23%;
+        font-weight: 600;
+    }
+    
+    p {
+        font-family: 'Open Sans', sans-serif ;
+        color: black;
+        font-size: 18px;
+        line-height: 30px;
+        padding-left: 23%;
+        padding-right: 23%;
+        padding-bottom: 10px;
+    }
+
 
 }
