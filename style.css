@@ -76,6 +76,24 @@ h2 {
     text-transform: uppercase;
 }
 
+.section1 {
+    font-family: 'Open Sans', sans-serif ;
+    color: black;
+    font-size: 20px;
+    line-height: 32px;
+    padding-left: 23%;
+    padding-right: 23%;
+    margin-top: 3%;
+}
+
+.normalcallout {
+    font-family: 'Zilla Slab';
+    font-size: 35px;
+    line-height: 43px;
+    color: #0500FF;
+    font-weight: 600;
+}
+
 .section3 {
     background-color: #2d2d2d;
     margin-top: 20px;
@@ -107,6 +125,8 @@ h2 {
     color: #c4fd26;
     font-weight: 500;
 }
+
+
 
 
 
@@ -176,7 +196,6 @@ h2 {
         width: 50%;
     }
 
-
     .section1 {
         font-family: 'Open Sans', sans-serif ;
         color: black;
@@ -186,7 +205,7 @@ h2 {
         padding-right: 23%;
         margin-top: 3%;
     }
-
+    
     .normalcallout {
         font-family: 'Zilla Slab';
         font-size: 35px;
@@ -194,50 +213,3 @@ h2 {
         color: #0500FF;
         font-weight: 600;
     }
-
-    .section3 {
-        margin-top: 20px;
-        padding-left: 23%;
-        padding-right: 23%;
-        padding-top: 5%;
-        padding-bottom: 5%;
-    }
-
-    .section3-title {
-        font-family: 'Zilla Slab', serif ;
-        font-weight: bold;
-        font-size: 56px;
-        line-height: 76px;
-        color: white;
-    }
-
-    .section3-body {
-        font-family: 'Open Sans', sans-serif ;
-        color: white;
-        font-size: 30px;
-        line-height: 51px;
-    }
-
-    .callout {
-        display: flex;
-        margin-top: 50px;
-        gap: 50px;
-    }
-
-    .stem {
-        height: 200fr;
-        width: 30px;
-        background-color: #c4fd26;
-    }
-
-    .dark {
-        font-family: 'Zilla Slab';
-        font-size: 90px;
-        line-height: 100px;
-        color: #c4fd26;
-        font-weight: 500;
-        align-items: center;
-    }
-
-
-}
