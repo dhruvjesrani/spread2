@@ -1,0 +1,100 @@
+.metadata {
+    padding-bottom: 40px;
+    margin: 40px;
+}
+
+strong {
+    font-weight: bold ;
+}
+
+u {
+    text-decoration: underline;
+}
+
+
+h5, h1 {
+    font-family: 'Zilla Slab', serif;
+}
+
+h1 {
+    font-size: 42px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+h2 {
+    font-family: 'Zilla Slab';
+    font-size: 20px;
+    line-height: 33px;
+    margin-bottom: 20px;
+}
+
+
+
+@media (min-width: 376px) {
+    h1 {
+        font-size: 74px;
+    }
+
+    body {
+        padding-bottom: 40px;
+    }
+
+    .metadata {
+        padding-left: 21%;
+        padding-right: 21%;
+    }
+
+    h2 {
+        font-size: 30px;
+        font-weight: 100px;
+        line-height: 40px;
+    }
+
+    h5 {
+        font-size: 20px;
+        line-height: 30px;
+
+    }
+
+    .navigation {
+        margin-bottom: 20px;
+        padding-top: 3%;
+        padding-bottom: 3%;
+    }
+
+    .navtitle {
+        padding-left: 21%;
+        padding-right: 21%;
+        margin-bottom: 1%;
+        font-family: 'Zilla Slab', serif;
+        font-size: 50px;
+        display: flex;
+    }
+
+    .contents {
+        display: flex;
+        padding-left: 21%;
+        padding-right: 21%;
+        gap: 10%;
+    }
+
+    .list1 {
+        font-family: 'Zilla Slab', serif;
+        font-size: 22px;
+        line-height: 27px;
+        text-transform: uppercase;
+        width: 50%;
+
+    }
+
+    .list2 {
+        font-family: 'Zilla Slab', serif;
+        font-size: 22px;
+        line-height: 27px;
+        text-transform: uppercase;
+        width: 50%;
+    }
+
+}
