@@ -47,6 +47,68 @@ h2 {
     font-weight: 600;
 }
 
+.navigation {
+    background-color: #c4fd26;
+    margin-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    padding-top: 20px;
+}
+
+.navtitle {
+    font-family: 'Zilla Slab', serif;
+    font-size: 46px;
+    line-height: 85px;
+}
+
+.list1 {
+    font-family: 'Zilla Slab', serif;
+    font-size: 16px;
+    line-height: 25px;
+    text-transform: uppercase;
+}
+
+.list2 {
+    font-family: 'Zilla Slab', serif;
+    font-size: 16px;
+    line-height: 25px;
+    text-transform: uppercase;
+}
+
+.section3 {
+    background-color: #2d2d2d;
+    margin-top: 20px;
+    padding: 40px;
+}
+
+.section3-title {
+    font-family: 'Zilla Slab', serif ;
+    font-weight: bold;
+    font-size: 42px;
+    color: white;
+    margin-bottom: 30px;
+    padding-top: 30px;
+}
+
+.section3-body {
+    font-family: 'Open Sans', sans-serif ;
+    color: white;
+    font-size: 23px;
+    line-height: 34px;
+
+}
+
+.dark {
+    font-family: 'Zilla Slab';
+    margin-top: 50px;
+    font-size: 45px;
+    line-height: 52px;
+    color: #c4fd26;
+    font-weight: 500;
+}
+
+
 
 
 @media (min-width: 376px) {
@@ -114,22 +176,68 @@ h2 {
         width: 50%;
     }
 
-}
 
-.section1 {
-    font-family: 'Open Sans', sans-serif ;
-    color: black;
-    font-size: 20px;
-    line-height: 32px;
-    padding-left: 23%;
-    padding-right: 23%;
-    margin-top: 3%;
-}
+    .section1 {
+        font-family: 'Open Sans', sans-serif ;
+        color: black;
+        font-size: 20px;
+        line-height: 32px;
+        padding-left: 23%;
+        padding-right: 23%;
+        margin-top: 3%;
+    }
 
-.normalcallout {
-    font-family: 'Zilla Slab';
-    font-size: 35px;
-    line-height: 43px;
-    color: #0500FF;
-    font-weight: 600;
+    .normalcallout {
+        font-family: 'Zilla Slab';
+        font-size: 35px;
+        line-height: 43px;
+        color: #0500FF;
+        font-weight: 600;
+    }
+
+    .section3 {
+        margin-top: 20px;
+        padding-left: 23%;
+        padding-right: 23%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+
+    .section3-title {
+        font-family: 'Zilla Slab', serif ;
+        font-weight: bold;
+        font-size: 56px;
+        line-height: 76px;
+        color: white;
+    }
+
+    .section3-body {
+        font-family: 'Open Sans', sans-serif ;
+        color: white;
+        font-size: 30px;
+        line-height: 51px;
+    }
+
+    .callout {
+        display: flex;
+        margin-top: 50px;
+        gap: 50px;
+    }
+
+    .stem {
+        height: 200fr;
+        width: 30px;
+        background-color: #c4fd26;
+    }
+
+    .dark {
+        font-family: 'Zilla Slab';
+        font-size: 90px;
+        line-height: 100px;
+        color: #c4fd26;
+        font-weight: 500;
+        align-items: center;
+    }
+
+
 }
