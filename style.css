@@ -125,6 +125,7 @@ h2 {
     color: #c4fd26;
     font-weight: 500;
 }
+
 .lowcontrast-section {
     background-color: #9E4949;
     padding: 40px;
@@ -203,6 +204,9 @@ mark {
     line-height: 31px;
 }
 
+em {
+    font-style: italic ;
+}
 
 
 
