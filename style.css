@@ -511,3 +511,25 @@ em {
 
 
 }
+
+    .section1 {
+    font-size: 12px;
+    padding-left: 70px;
+    padding-right: 70px;
+    line-height: 20px;
+    margin-top: 0px;
+    padding-top: 30px;
+    }
+
+    .normalcallout {
+    font-size: 16px;
+    color: black;
+    line-height: 22px;
+    padding-right: 120px ;
+    border-left: solid 2px black ;
+    padding-left: 14px;
+    }
+
+    u {
+    text-decoration: none;
+    }
