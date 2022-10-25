@@ -643,4 +643,25 @@ em {
         line-height: 20px;
     }
 
+    h3 {
+        padding-top: 30px ;
+        padding-bottom: 0px ;
+        padding-right: 70px ;
+        padding-left: 70px;
+        margin: 0px;
+        font-size: 24px;
+    }
+
+    p {
+        padding-top: 30px ;
+        padding-bottom: 30px ;
+        padding-right: 70px ;
+        padding-left: 70px;
+        margin: 0px;
+        font-size: 12px;
+        line-height: 20px;
+
+    }
+
+
 }
