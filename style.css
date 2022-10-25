@@ -608,4 +608,39 @@ em {
     text-decoration: underline;
     }
 
+    .invisible-container {
+        padding-top: 0px ;
+        padding-bottom: 30px ;
+        padding-left: 70px ;
+        padding-right: 70px ;
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .invisible {
+        color: #CACACA;
+    }
+
+    .normalcallout2 {
+        padding-top: 0px ;
+        padding-bottom: 0px ;
+        padding-right: 70px ;
+        padding-left: 30px;
+        font-size: 20px;
+        color: black;
+        line-height: 28px;
+        margin-left: 70px ;
+        padding-right: 120px ;
+        border-left: solid 2px black ;
+    }
+
+    .section4 {
+        padding-top: 30px ;
+        padding-bottom: 30px ;
+        padding-right: 70px ;
+        padding-left: 70px;
+        font-size: 12px;
+        line-height: 20px;
+    }
+
 }
